@@ -2,8 +2,9 @@
 
 ## Overview
 
-The primary goal of this project is to develop an image compression system using the ** Discrete Cosine Transform (DCT) ** technique applied to 8x8 pixel blocks in a two-dimensional space. Upon compression, the system aims to efficiently reconstruct the image using the Inverse DCT method for each block. By employing this approach, the project endeavors to reduce the size of digital images while preserving their visual integrity, facilitating tasks such as storage optimization and transmission efficiency.
-## Features
+The primary goal of this project is to develop an image compression system using **DCT** on 8x8 blocks to efficiently reduce image sizes while maintaining visual quality
+
+## Steps
 
 - Read an input image file.
 - Extract and display each of its three color components.
@@ -12,7 +13,7 @@ The primary goal of this project is to develop an image compression system using
 - Compare the sizes of the original and compressed images.
 - Decompress the image by applying inverse 2D DCT to the retained coefficients.
 - Measure the quality of the decompressed image using PSNR.
-- Plot PSNR against the number of retained coefficients (m) to visualize the trade-off between compression ratio and image quality.
+
 
 ## Used Libraries
 - opencv
@@ -33,4 +34,3 @@ The primary goal of this project is to develop an image compression system using
 2. Run ImageProcessing.ipynb:
    ```bash
    jupyter notebook 
-
