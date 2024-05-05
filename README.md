@@ -2,8 +2,7 @@
 
 ## Overview
 
-This project implements a simple image compression algorithm using 2D Discrete Cosine Transform (DCT). The algorithm reads an input image, processes each of its color components (red, green, and blue) in blocks of 8 × 8 pixels, and converts each block into the frequency domain using 2D DCT. The algorithm then retains only a few coefficients while discarding the rest, thus achieving compression. Finally, it decompresses the image by applying the inverse 2D DCT to the retained coefficients and measures the quality of the decompressed image using Peak Signal-to-Noise Ratio (PSNR).
-
+The primary goal of this project is to develop an image compression system using the ** Discrete Cosine Transform (DCT) ** technique applied to 8x8 pixel blocks in a two-dimensional space. Upon compression, the system aims to efficiently reconstruct the image using the Inverse DCT method for each block. By employing this approach, the project endeavors to reduce the size of digital images while preserving their visual integrity, facilitating tasks such as storage optimization and transmission efficiency.
 ## Features
 
 - Read an input image file.
