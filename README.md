@@ -28,9 +28,9 @@ This project implements a simple image compression algorithm using 2D Discrete C
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/EngYoussefBahy/ImageProcessingProject.git
+    git clone https://github.com/EngYoussefBahy/ImageProcessingProject.git
 
 2. Run ImageProcessing.ipynb
   ```bash
-  jupyter notebook 
+    jupyter notebook 
 
