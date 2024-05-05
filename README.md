@@ -15,13 +15,22 @@ This project implements a simple image compression algorithm using 2D Discrete C
 - Measure the quality of the decompressed image using PSNR.
 - Plot PSNR against the number of retained coefficients (m) to visualize the trade-off between compression ratio and image quality.
 
+## Used Libraries
+- opencv
+- numpy
+- pandas
+- matplotlib 
+- PIL
+- scipy
+
 ## Usage
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/EngYoussefBahy/ImageProcessingProject.git
-2. Install the required dependencies:
-   ```bash 
-    pip install -r requirements.txt
+
+2. Run ImageProcessing.ipynb
+  ```bash
+  jupyter notebook 
 
