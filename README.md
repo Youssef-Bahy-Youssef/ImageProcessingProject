@@ -15,7 +15,7 @@ The primary goal of this project is to develop an image compression system using
 - Measure the quality of the decompressed image using PSNR.
 
 
-## Used Libraries
+## Used Libraries:
 - opencv
 - numpy
 - pandas
@@ -34,3 +34,5 @@ The primary goal of this project is to develop an image compression system using
 2. Run ImageProcessing.ipynb:
    ```bash
    jupyter notebook 
+3. Project Description:
+[link](https://drive.google.com/drive/folders/1L8eS0gcDDs7jQJ8kjgJQtqpeWrygsE3j)
